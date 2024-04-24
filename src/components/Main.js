@@ -1,5 +1,6 @@
 import Home from './Home'
 import Sobre from './Sobre'
+import Projetos from './Projetos'
 import styles from './StylesModules/Main.module.css'
 
 function Main() {
@@ -7,6 +8,7 @@ function Main() {
         <main>
             <Home/>
             <Sobre/>
+            <Projetos/>
         </main>
     )
 }

@@ -1,4 +1,47 @@
 @import url('./colors-pallet.css');
 .container{
-
+    width: 70%;
+    margin: 0 auto;
+    background-color: var(--bg-200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 0 0 1px 1px var(--primary-100);
+    color: var(--text-100);
+    text-align: center;
+}
+.container>h1{
+    color: var(--primary-100);
+}
+.tech{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container> h2{
+    color: var(--primary-100);
+}
+.tech nav svg{
+    font-size: 40px;
+}
+.tech nav{
+    width: 90px;
+    background-color: var(--text-100);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: var(--bg-200);
+    border: 1px solid var(--text-100);
+    transition: all var(--transition-time);
+}
+.tech nav:hover{
+    color: var(--primary-100);
+    background-color: var(--bg-200);
+    cursor: pointer;
+    border: 1px solid var(--primary-100);
 }
