@@ -1,0 +1,106 @@
+@import url('./colors-pallet.css');
+
+.container {
+    width: 80%;
+    padding: 0 1em;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all var(--transition-time);
+}
+
+.container nav {}
+
+.container p {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-100);
+}
+
+.ptop {
+    font-size: var(--txtmedium);
+    font-weight: bold;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    column-gap: 20px;
+    font-size: 70px;
+    line-height:55px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.picons svg {
+    font-size: 0.7em;
+    transition: all var(--transition-time);
+    color: var(--primary-100);
+}
+
+.picons svg:hover {
+    cursor: pointer;
+    color: var(--text-100);
+}
+
+.pbottom {
+    font-size: 120px;
+    line-height:100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media (max-width: 650px) {
+    .container {
+        height: 60vh;
+    }
+
+    .ptop {
+        font-size: var(--txtmedium);
+        line-height: var(--txtmedium);
+    }
+
+    .middle {
+        font-size: 55px !important;
+        line-height: 45px;
+    }
+
+    .picons svg {
+        font-size: 0.7em !important;
+    }
+
+    .pbottom {
+        font-size: 90px !important;
+        line-height: 75px;
+    }
+
+}
+@media (max-width: 490px) {
+    .container {
+        height: 60vh;
+    }
+
+    .ptop {
+        font-size: var(--txtsmall);
+        line-height: var(--txtsmall);
+    }
+
+    .middle {
+        font-size: 35px !important;
+        line-height: 25px;
+    }
+
+    .picons svg {
+        font-size: 0.7em !important;
+    }
+
+    .pbottom {
+        font-size: 60px !important;
+        line-height: 45px;
+    }
+}

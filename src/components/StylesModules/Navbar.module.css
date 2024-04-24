@@ -1,0 +1,35 @@
+@import url('./colors-pallet.css');
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bg-200);
+    box-shadow:1px 1px 1px var(--primary-100);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.left{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+.left ul{
+    display: flex;
+    list-style: none;
+    column-gap: 1em;
+    font-size: var(--txtmedium);
+}
+.left>ul>li>a{
+    text-decoration: none;
+    color: var(--primary-100);
+    transition: all var(--transition-time);
+    padding: 1px;
+}
+.left>ul>li>a:hover{
+    color: var(--text-100);
+}
