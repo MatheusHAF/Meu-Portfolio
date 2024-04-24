@@ -1,0 +1,10 @@
+@import url('./colors-pallet.css');
+.container{
+    padding: 0 2%;
+    width: 98%;
+    height: 30vh;
+    background-color: var(--bg-300);
+}
+.container h1{
+    color: var(--primary-100);
+}

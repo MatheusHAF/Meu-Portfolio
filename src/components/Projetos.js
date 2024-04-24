@@ -1,7 +1,8 @@
+import styles from './StylesModules/Projetos.module.css'
 function Projetos() {
     return (
-        <div>
-            <h1>projetos</h1>
+        <div id='projects'className={styles.container}>
+            <h1>Projetos</h1>
         </div>
     );
 }
