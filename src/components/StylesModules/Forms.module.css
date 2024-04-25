@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: var(--primary-100);
 }
 .container form{
     width: 80%;
@@ -14,16 +15,38 @@
 .container form nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 1em;
     margin-bottom: 10px;
 }
 .container form nav label{
     width: 50%;
-    text-align: right;
+    text-align: left;
+    color: var(--text-100);
+    font-weight: bold;
 }
-.container form nav textarea{
+.container form nav textarea,.container form nav input{
     width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--primary-100);
+    padding: 5px;
+
 }
-.container form nav input{
-    width: 100%;
+.btnsubmit:hover{
+    background-color: var(--text-100);
+    cursor: pointer;
+}
+.btnsubmit{
+    background-color: var(--primary-100);
+    width: 50%;
+    padding: 5px 0;
+    border: none;
+    border-radius: 10px;
+    color: var(--bg-100);
+    font-size: var(--txtmedium);
+    transition: all var(--transition-time);
+}
+@media (max-width: 1000px){
+
 }

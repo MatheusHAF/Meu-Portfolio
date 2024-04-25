@@ -20,7 +20,7 @@ function Forms() {
                     <label>Mensagem: </label>
                     <textarea cols="30" rows="10"></textarea>
                 </nav>
-                <button>Enviar</button>
+                <input className={styles.btnsubmit} type="submit" value="Enviar"/>
             </form>
         </div>
     )
