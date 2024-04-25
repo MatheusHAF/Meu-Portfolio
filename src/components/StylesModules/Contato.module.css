@@ -1,0 +1,46 @@
+.container{
+    width: 70%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 1px 1px var(--primary-100);
+}
+.container h1{
+    color: var(--primary-100);
+}
+.container .divs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.left h2{
+    color: var(--primary-100);
+}
+.left nav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    text-align: left;
+    color: var(--text-100);
+    font-weight: bold;
+}
+.left>nav>svg{
+    font-size: var(--txtlarge);
+    color: var(--primary-100);
+}
+.copy>svg{
+    font-size: var(--txtsmall);
+    transition: var(--transition-time);
+}
+.copy>svg:hover{
+    cursor: pointer;
+    color: var(--primary-100);
+}
+.right{
+    width: 50%;
+}

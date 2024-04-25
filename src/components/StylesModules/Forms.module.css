@@ -1,0 +1,29 @@
+@import url('./colors-pallet.css');
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container form{
+    width: 80%;
+    margin-bottom: 2em;
+}
+.container form nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 10px;
+}
+.container form nav label{
+    width: 50%;
+    text-align: right;
+}
+.container form nav textarea{
+    width: 100%;
+}
+.container form nav input{
+    width: 100%;
+}
