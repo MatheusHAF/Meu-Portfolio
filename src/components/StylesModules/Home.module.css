@@ -12,7 +12,12 @@
     transition: all var(--transition-time);
 }
 
-.container nav {}
+.container>nav {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+    padding: 3em;
+    border-radius: 10px;
+}
 
 .container p {
     margin: 0;
@@ -23,6 +28,10 @@
 .ptop {
     font-size: var(--txtmedium);
     font-weight: bold;
+}
+.ptop>a{
+    color: var(--text-100);
+    text-shadow: 2px 2px 4px var(--primary-200);
 }
 
 .middle {
@@ -41,12 +50,12 @@
 .picons svg {
     font-size: 0.7em;
     transition: all var(--transition-time);
-    color: var(--primary-100);
+    color: var(--text-100);
 }
 
 .picons svg:hover {
     cursor: pointer;
-    color: var(--text-100);
+    color: var(--primary-100);
 }
 
 .pbottom {

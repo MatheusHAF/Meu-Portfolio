@@ -3,27 +3,31 @@
 header{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
     align-items: center;
     background-color: var(--bg-200);
     box-shadow:1px 1px 1px var(--primary-100);
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 1000;
 }
 .left{
-    width: 100%;
     display: flex;
-    justify-content: end;
-    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
 }
 .left ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
-    column-gap: 1em;
+    gap: 1em;
     font-size: var(--txtmedium);
+    margin: 0;
+    padding: 0;
 }
 .left>ul>li>a{
     text-decoration: none;

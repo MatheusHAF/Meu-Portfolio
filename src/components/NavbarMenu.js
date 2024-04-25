@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 function NavbarMenu() {
     return(
         <header>
-            <div className={Styles.right}><img src={logo} alt="logo" /></div>
+            <div className={Styles.right}><a href="#"><img src={logo} alt="logo" /></a></div>
             <div className={Styles.left}>
                 <ul>
                     <li><a href="#">Inicio</a></li>

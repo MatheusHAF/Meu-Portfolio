@@ -5,7 +5,7 @@ function Home() {
     return(
         <div id='Home' className={styles.container}>
             <nav>
-                <p className={styles.ptop}>Olá 👋 me chamo Matheus</p>
+                <p className={styles.ptop}>Olá 👋 me chamo <a href="https://github.com/MatheusHAF" target="_blank">Matheus</a></p>
                 <div className={styles.middle}>
                     <p>Full-Stack</p>
                     <p className={styles.picons}>
