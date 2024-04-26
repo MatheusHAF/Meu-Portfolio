@@ -1,6 +1,7 @@
 import styles from './StylesModules/Projetos.module.css'
 import img1 from '../images/pl.png'
 import img2 from '../images/ppt.png'
+import img3 from '../images/ed.png'
 
 import { Swiper } from 'swiper/react';
 import { register } from 'swiper/element/bundle';
@@ -45,16 +46,23 @@ function Projetos() {
         {
             title: 'Portfolio Laura Gomes',
             image: img1,
-            desc: 'Esse Portfolio foi um trabalho freelancer para uma atriz, utilizei a linguagem React e é um site totalmente responsivo.',
+            desc: 'Esse Portfolio WEB foi um trabalho freelancer para uma atriz, utilizei a linguagem React e é um site totalmente responsivo.',
             link: 'aaaaaalink',
             tags: ['React']
         },
         {
             title: 'Pedra, Papel & Tesoura',
             image: img2,
-            desc: 'Esse projeto pessoal é um desafio da Pagina FrontEnd-Mentor, utilizei as linguagens HTML, CSS e JavaScript.',
+            desc: 'Esse projeto WEB é uma landing-page desafiada pelo Site FrontEnd-Mentor, utilizei as linguagens HTML, CSS e JavaScript.',
             link: 'https://matheushaf.github.io/desafio-pedra-papel-tesoura/',
             tags: ['Javascript']
+        },
+        {
+            title: 'Estrutura de Dados',
+            image: img3,
+            desc: 'Nesse repositório armazeno os exercícios propostos de Estrutura de Dados, no qual foram feitos utilizando a Linguagem C.',
+            link: 'https://github.com/MatheusHAF/Labs-mc202.git',
+            tags: ['C']
         },
 
     ]
