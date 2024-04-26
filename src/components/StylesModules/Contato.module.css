@@ -31,7 +31,12 @@
     color: var(--text-100);
     font-weight: bold;
 }
-.left>nav>svg{
+.left a{
+    display: flex;
+    width: 100%;
+    gap: 1em;
+}
+.left nav a>svg{
     font-size: var(--txtlarge);
     color: var(--primary-100);
 }
@@ -39,7 +44,7 @@
     font-size: var(--txtsmall);
     transition: var(--transition-time);
 }
-.copy>svg:hover{
+.copy svg:hover{
     cursor: pointer;
     color: var(--primary-100);
 }
