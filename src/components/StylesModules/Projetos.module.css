@@ -15,6 +15,7 @@
     flex-direction: column;
     text-align: center;
     border-radius: 10px;
+    margin-bottom: 2em;
 }
 a{
     text-decoration: none;
@@ -26,8 +27,12 @@ a{
 .card h2{
     color: var(--primary-100);
     font-size: var(--txtmedium);
+    margin: 0;
 }
 .card p{
     color: var(--text-100);
     font-size: var(--txtsmall);
+    width: 70%;
+    text-align: justify;
+    margin: 0 auto;
 }

@@ -45,40 +45,15 @@ function Projetos() {
         {
             title: 'Portfolio Laura Gomes',
             image: img1,
-            desc: 'Dolor Lorem aliqua enim aliqua commodo.',
+            desc: 'Esse Portfolio foi um trabalho freelancer para uma atriz, utilizei a linguagem React e é um site totalmente responsivo.',
             link: 'aaaaaalink',
             tags: ['React']
         },
         {
             title: 'Pedra, Papel & Tesoura',
             image: img2,
-            desc: 'Dolor Lorem aliqua enim aliqua commodo.',
-            tags: ['Javascript']
-        },
-        {
-            title: 'Portfolio Laura Gomes',
-            image: img1,
-            desc: 'Dolor Lorem aliqua enim aliqua commodo.',
-            link: 'aaaaaalink',
-            tags: ['React']
-        },
-        {
-            title: 'Pedra, Papel & Tesoura',
-            image: img2,
-            desc: 'Dolor Lorem aliqua enim aliqua commodo.',
-            tags: ['Javascript']
-        },
-        {
-            title: 'Portfolio Laura Gomes',
-            image: img1,
-            desc: 'Dolor Lorem aliqua enim aliqua commodo.',
-            link: 'aaaaaalink',
-            tags: ['React']
-        },
-        {
-            title: 'Pedra, Papel & Tesoura',
-            image: img2,
-            desc: 'Dolor Lorem aliqua enim aliqua commodo.',
+            desc: 'Esse projeto pessoal é um desafio da Pagina FrontEnd-Mentor, utilizei as linguagens HTML, CSS e JavaScript.',
+            link: 'https://matheushaf.github.io/desafio-pedra-papel-tesoura/',
             tags: ['Javascript']
         },
 
@@ -92,7 +67,7 @@ function Projetos() {
             >
                 {dbcards.map((item, index) => (
                     <swiper-slide>
-                        <a href='#projects'>
+                        <a href={`${item.link}`} target='_blank'>
                             <div key={index} className={styles.card}>
                                 <img src={item.image} alt={`${item.title}`} />
                                 <div>
