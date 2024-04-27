@@ -53,7 +53,7 @@ function Projetos() {
         {
             title: 'Pedra, Papel & Tesoura',
             image: img2,
-            desc: 'Esse projeto WEB é uma landing-page desafiada pelo Site FrontEnd-Mentor, utilizei as linguagens HTML, CSS e JavaScript.',
+            desc: 'Esse página WEB é uma landing-page de um desafio feito pelo Site FrontEnd-Mentor, utilizei as linguagens HTML, CSS e JavaScript.',
             link: 'https://matheushaf.github.io/desafio-pedra-papel-tesoura/',
             tags: ['Javascript']
         },
