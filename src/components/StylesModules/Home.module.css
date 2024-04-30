@@ -113,3 +113,8 @@
         line-height: 45px;
     }
 }
+@media(max-width: 520px) {
+    .container>nav{
+        padding: 3em 1em !important;
+    }
+}
