@@ -46,7 +46,7 @@ function Projetos() {
         {
             title: 'Portfolio Laura Gomes',
             image: img1,
-            desc: 'Esse Portfolio WEB foi um trabalho freelancer para uma atriz, utilizei a linguagem React e é um site totalmente responsivo.',
+            desc: 'Esse Portfolio WEB contém os trabalhos artísticos da atriz e produtora Laura Gomes. Esse projeto ainda está em desenvolvimento e estou utilizando React para desenvolvê-lo.',
             link: 'aaaaaalink',
             tags: ['React']
         },

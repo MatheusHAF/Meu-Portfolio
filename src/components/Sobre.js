@@ -1,6 +1,6 @@
 import styles from './StylesModules/Sobre.module.css'
 
-import { FaGithub,FaPython,FaReact, FaHtml5,FaPhp , FaGitAlt  } from "react-icons/fa";
+import { FaGithub,FaPython,FaReact, FaHtml5 , FaGitAlt  } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoCPlusPlus } from "react-icons/bi";
 
@@ -9,10 +9,11 @@ function Sobre() {
         <div id="about" className={styles.container}>
             <h1>Um pouco sobre mim</h1>
             <p>
-                Olá, Sou o Matheus e tenho 23 anos. Atualmente sou granduando em Ciência Computação pela Universidade Estadual de Campinas (Unicamp) e já me formei em Técnico em Informática em 2019 pelo IFSP, onde me apaixonei por programação.
+                Olá, Sou o Matheus e tenho 23 anos. Atualmente sou graduando em Ciência Computação pela Universidade Estadual de Campinas (Unicamp) e já me formei em Técnico em Informática em 2019 pelo IFSP,
+                 onde me apaixonei por programação. No momento estou trabalhando como Freelancer e também em alguns projetos pessoais.
                 
             </p>
-            <h2>Tecnologias que ja utilizei</h2>
+            <h2>Tecnologias que já utilizei</h2>
             <div className={styles.tech}>
                 <nav>
                     <FaPython/>

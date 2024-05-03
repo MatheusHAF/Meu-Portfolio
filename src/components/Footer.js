@@ -5,7 +5,7 @@ import { IoMdMail } from "react-icons/io";
 function Footer() {
     return (
         <footer>
-            <p>© Matheus HAF - Todos direitos reservado</p>
+            <p>© Matheus HAF - Todos os direitos reservados</p>
         </footer>
     )
 }
