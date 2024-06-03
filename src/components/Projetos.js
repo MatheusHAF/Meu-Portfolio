@@ -47,7 +47,7 @@ function Projetos() {
             title: 'Portfolio Laura Gomes',
             image: img1,
             desc: 'Esse Portfolio WEB contém os trabalhos artísticos da atriz e produtora Laura Gomes. Esse projeto ainda está em desenvolvimento e estou utilizando React para desenvolvê-lo.',
-            link: 'aaaaaalink',
+            link: 'https://matheushaf.github.io/portfolio-LauraGomes/',
             tags: ['React']
         },
         {
