@@ -2,7 +2,8 @@ import styles from './StylesModules/Sobre.module.css'
 
 import { FaGithub,FaPython,FaReact, FaHtml5 , FaGitAlt  } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { BiLogoCPlusPlus } from "react-icons/bi";
+import { BiLogoCPlusPlus, BiLogoFirebase } from "react-icons/bi";
+import { TbApi } from "react-icons/tb";
 
 function Sobre() {
     return(
@@ -42,6 +43,14 @@ function Sobre() {
                 <nav>
                     <IoLogoJavascript/>
                     <p>JavaScript</p>
+                </nav>
+                <nav>
+                    <TbApi />
+                    <p>API's</p>
+                </nav>
+                <nav>
+                    <BiLogoFirebase />
+                    <p>Firebase</p>
                 </nav>
             </div>
         </div>
