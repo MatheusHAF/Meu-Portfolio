@@ -1,6 +1,6 @@
 import styles from './StylesModules/Sobre.module.css'
 
-import { FaGithub,FaPython,FaReact, FaHtml5 , FaGitAlt  } from "react-icons/fa";
+import { FaGithub,FaPython,FaReact, FaHtml5 , FaGitAlt, FaWordpress  } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoCPlusPlus, BiLogoFirebase } from "react-icons/bi";
 import { TbApi } from "react-icons/tb";
@@ -51,6 +51,10 @@ function Sobre() {
                 <nav>
                     <BiLogoFirebase />
                     <p>Firebase</p>
+                </nav>
+                <nav>
+                    <FaWordpress />
+                    <p>Wordpress</p>
                 </nav>
             </div>
         </div>
