@@ -14,7 +14,6 @@ function Sobre() {
             Concluí o curso técnico em Informática pelo IFSP (2016-2019), onde descobri minha paixão por programação.
             Atualmente, trabalho como secretário administrativo em uma escola de futebol,
             realizo freelances e me dedico a projetos pessoais, sempre buscando aprimorar minhas habilidades e explorar novas tecnologias.
-                
             </p>
             <h2>Tecnologias que já utilizei</h2>
             <div className={styles.tech}>
