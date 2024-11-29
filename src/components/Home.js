@@ -7,7 +7,7 @@ function Home() {
             <nav>
                 <p className={styles.ptop}>Olá 👋 me chamo <a href="https://github.com/MatheusHAF" target="_blank">Matheus</a></p>
                 <div className={styles.middle}>
-                    <p>Full-Stack</p>
+                    <p>Front & Back</p>
                     <p className={styles.picons}>
                         <a href="https://github.com/MatheusHAF" target="_blank"><FaSquareGithub/></a>
                         <a href="https://www.linkedin.com/in/matheus-francisco-a5bb1a218/" target="_blank"><FaLinkedin/></a>

@@ -2,7 +2,7 @@ import styles from './StylesModules/Sobre.module.css'
 
 import { FaGithub,FaPython,FaReact, FaHtml5 , FaGitAlt, FaWordpress  } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { BiLogoCPlusPlus, BiLogoFirebase } from "react-icons/bi";
+import { BiLogoCPlusPlus } from "react-icons/bi";
 import { TbApi } from "react-icons/tb";
 
 function Sobre() {
@@ -10,8 +10,10 @@ function Sobre() {
         <div id="about" className={styles.container}>
             <h1>Um pouco sobre mim</h1>
             <p>
-                Olá, Sou o Matheus e tenho 23 anos. Atualmente sou graduando em Ciência Computação pela Universidade Estadual de Campinas (Unicamp) e já me formei em Técnico em Informática em 2019 pelo IFSP,
-                 onde me apaixonei por programação. No momento estou trabalhando como Freelancer e também em alguns projetos pessoais.
+            Olá! Sou o Matheus, tenho 24 anos e sou graduando em Computação na Universidade Estadual de Campinas (Unicamp).
+            Concluí o curso técnico em Informática pelo IFSP (2016-2019), onde descobri minha paixão por programação.
+            Atualmente, trabalho como secretário administrativo em uma escola de futebol,
+            realizo freelances e me dedico a projetos pessoais, sempre buscando aprimorar minhas habilidades e explorar novas tecnologias.
                 
             </p>
             <h2>Tecnologias que já utilizei</h2>
