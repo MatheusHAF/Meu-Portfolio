@@ -49,10 +49,6 @@ function Sobre() {
                     <p>API's</p>
                 </nav>
                 <nav>
-                    <BiLogoFirebase />
-                    <p>Firebase</p>
-                </nav>
-                <nav>
                     <FaWordpress />
                     <p>Wordpress</p>
                 </nav>
