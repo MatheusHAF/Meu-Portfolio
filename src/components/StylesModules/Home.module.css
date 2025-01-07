@@ -78,10 +78,11 @@
         font-size: 55px !important;
         line-height: 45px;
     }
-
+    .picons{
+        z-index: 1000;
+    }
     .picons svg {
         font-size: 0.7em !important;
-        z-index: 1000;
     }
 
     .pbottom {
