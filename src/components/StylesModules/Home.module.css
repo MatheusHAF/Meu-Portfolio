@@ -81,6 +81,7 @@
 
     .picons svg {
         font-size: 0.7em !important;
+        z-index: 1000;
     }
 
     .pbottom {

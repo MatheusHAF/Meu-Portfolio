@@ -37,17 +37,10 @@ function Sobre() {
                     <FaHtml5/>
                     <p>HTML5</p>
                 </nav>
-                <nav>
-                    <FaGithub/>
-                    <p>Github</p>
-                </nav>
+                
                 <nav>
                     <IoLogoJavascript/>
                     <p>JavaScript</p>
-                </nav>
-                <nav>
-                    <TbApi />
-                    <p>API's</p>
                 </nav>
                 <nav>
                     <FaWordpress />
