@@ -17,14 +17,6 @@ function Contato() {
                 <div className={styles.left}>
                     <h2>Minhas redes sociais</h2>
                     <nav>
-                        
-                        <a href="#contacts">
-                            <FaSquareWhatsapp />
-                            <p>Whatsapp</p>
-                            <div className={styles.copy}><CopyToClipboard text='+55(16)98848-1389'><FaRegCopy /></CopyToClipboard> </div>
-                        </a>
-                    </nav>
-                    <nav>
                         <a href="#contacts">
                             <IoMdMail />
                             <p>E-mail</p>

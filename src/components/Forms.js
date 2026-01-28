@@ -34,7 +34,6 @@ function Forms() {
     }
     return(
         <div className={styles.container}>
-            <h2>Me envie um e-mail</h2>
             <form onSubmit={sendEmail}>
                 <nav>
                     <label>Nome: </label>
