@@ -5,7 +5,8 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 
 import { FaSquareGithub, FaSquareWhatsapp, FaLinkedin, FaSquareInstagram } from "react-icons/fa6";
-import { IoMdMail } from "react-icons/io";
+import { IoMdMail,IoIosPerson } from "react-icons/io";
+import { MdAlternateEmail,MdDriveFileRenameOutline,MdOutlineTitle } from "react-icons/md";
 import { FaRegCopy } from "react-icons/fa";
 
 function Contato() {
@@ -19,20 +20,29 @@ function Contato() {
                     <nav>
                         <a href="#contacts">
                             <IoMdMail />
-                            <p>E-mail</p>
+                            <span>
+                                <p>E-mail</p>
+                                <p className={styles.email}>matheushenrique612@gmail.com</p>
+                            </span>
                             <div className={styles.copy}><CopyToClipboard text='matheushenrique612@gmail.com'><FaRegCopy /></CopyToClipboard></div>
                         </a>
                     </nav>
                     <nav>
                         <a href="https://www.linkedin.com/in/matheus-francisco-a5bb1a218/" target='_blank'>
                             <FaLinkedin />
-                            <p>Linkedin</p>
+                            <span>
+                                <p>Linkedin</p>
+                                <p>@matheus-francisco-a5bb1a218</p>
+                            </span>
                         </a>
                     </nav>
                     <nav>
                         <a href="https://github.com/MatheusHAF" target='_blank'>
                             <FaSquareGithub />
-                            <p>Github</p>
+                            <span>
+                                <p>Github</p>
+                                <p>@MatheusHAF</p>
+                            </span>
                         </a>
                     </nav>
                 </div>

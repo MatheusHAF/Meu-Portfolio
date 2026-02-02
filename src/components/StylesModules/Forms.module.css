@@ -25,6 +25,14 @@
     text-align: left;
     color: var(--text-100);
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.container form nav svg{
+    color: var(--primary-100);
+    margin-right: 5px;
 }
 .container form nav textarea,.container form nav input{
     width: 100%;

@@ -2,6 +2,9 @@ import styles from './StylesModules/Forms.module.css'
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 
+import { IoMdMail,IoIosPerson } from "react-icons/io";
+import { MdAlternateEmail,MdDriveFileRenameOutline,MdOutlineTitle } from "react-icons/md";
+
 function Forms() {
     const [name,setName] = useState('')
     const [assunto,setAssunto] = useState('')
@@ -36,28 +39,28 @@ function Forms() {
         <div className={styles.container}>
             <form onSubmit={sendEmail}>
                 <nav>
-                    <label>Nome: </label>
+                    <label><IoIosPerson/>Nome: </label>
                     <input type="text" 
                     placeholder='Digite seu nome'
                     onChange={(e)=>setName(e.target.value)}
                     value={name}/>
                 </nav>
                 <nav>
-                    <label>E-mail: </label>
+                    <label><MdAlternateEmail/>E-mail: </label>
                     <input type="email"  
                     placeholder='Digite seu e-mail'
                     onChange={(e)=>setEmail(e.target.value)}
                     value={email}/>
                 </nav>
                 <nav>
-                    <label>Assunto: </label>
+                    <label><MdOutlineTitle/>Assunto: </label>
                     <input type="text"
                      placeholder='Digite o assunto' 
                      onChange={(e)=>setAssunto(e.target.value)}
                     value={assunto}/>
                 </nav>
                 <nav>
-                    <label>Mensagem: </label>
+                    <label><MdDriveFileRenameOutline/>Mensagem: </label>
                     <textarea cols="30" 
                     rows="10"
                     onChange={(e)=>setMessage(e.target.value)}
