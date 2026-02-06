@@ -1,38 +1,39 @@
-@import url('./colors-pallet.css');
-.container{
-    padding: 0 2%;
-    width: 96%;
-    background-color: var(--bg-300);
-    --swiper-navigation-color: var(--primary-100);
+@import url("./colors-pallet.css");
+.container {
+  position: relative;
+  padding: 0 2%;
+  width: 96%;
+  background-color: var(--bg-300);
+  --swiper-navigation-color: var(--primary-100);
 }
-.container h1{
-    color: var(--primary-100);
+.container h1 {
+  color: var(--primary-100);
 }
-.card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 2em;
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2em;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-.card img{
-    width: 200px;
+.card img {
+  width: 200px;
 }
-.card h2{
-    color: var(--primary-100);
-    font-size: var(--txtmedium);
-    margin: 0;
+.card h2 {
+  color: var(--primary-100);
+  font-size: var(--txtmedium);
+  margin: 0;
 }
-.card p{
-    color: var(--text-100);
-    font-size: var(--txtsmall);
-    width: 70%;
-    text-align: justify;
-    margin: 0 auto;
+.card p {
+  color: var(--text-100);
+  font-size: var(--txtsmall);
+  width: 70%;
+  text-align: justify;
+  margin: 0 auto;
 }

@@ -1,70 +1,110 @@
-.container{
-    width: 70%;
-    margin: 2em auto;
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-    text-align: center;
-    background-color: var(--bg-200);
-    box-shadow: 0 0 4px 1px var(--primary-100);
+.container {
+  margin: 0;
+  padding: 2em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--bg-200);
 }
-.container h1{
-    color: var(--primary-100);
+.container h1 {
+  color: var(--primary-100);
 }
-.container .divs{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+.container .divs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-.left h2{
-    color: var(--primary-100);
+.left h2 {
+  color: var(--primary-100);
+  text-align: left;
 }
-.left nav{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: em;
-    text-align: left;
-    color: var(--text-100);
-    font-weight: bold;
+.left,
+.right {
+  width: 40%;
 }
-.left a{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 100%;
-    gap: 0.5em;
-    margin-bottom: 1em;
+.copyNav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  text-decoration: none;
 }
-.left a p{
-    margin: 0;
+.left nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5em;
+  text-align: left;
+  color: var(--text-100);
+  font-weight: bold;
 }
-.left nav a>svg{
-    font-size: var(--txtlarge);
-    color: var(--primary-100);
+.left a,.left div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  gap: 0.5em;
+  margin-bottom: 1em;
 }
-.copy>svg{
-    font-size: var(--txtsmall);
-    transition: var(--transition-time);
+.left  p {
+  margin: 0;
 }
-.copy svg:hover{
-    cursor: pointer;
-    color: var(--primary-100);
+.left nav svg {
+  font-size: var(--txtlarge);
+  color: var(--primary-100);
 }
-.right{
-    width: 50%;
+.right {
+  width: 50%;
 }
-@media (max-width: 600px){
-    .divs{
-        flex-direction: column-reverse !important;
-    }
-    .right,.left{
-        width: 100%;
-    }
-    .left .email{
-    font-size: 12px;
+.secondp {
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--text-200);
 }
+.btn_download {
+  max-width: 50%;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: var(--primary-100);
+  color: var(--bg-100) !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+.left nav:not(.btn_download):hover {
+  color: var(--primary-100);
+  cursor: pointer;
+}
+.btn_download:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+.btn_download svg {
+  font-size: var(--txtlarge);
+  color: var(--bg-100) !important;
+}
+
+@media (max-width: 900px) {
+  .btn_download {
+    max-width: 70% ;
+  }
+}
+@media (max-width: 600px) {
+  .btn_download {
+    max-width: 90% !important;
+  }
+  .divs {
+    flex-direction: column-reverse !important;
+  }
+  .right,
+  .left {
+    width: 100% !important;
+  }
 }

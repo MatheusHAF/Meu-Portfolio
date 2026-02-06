@@ -1,22 +1,23 @@
-@import url('./colors-pallet.css');
-footer{
-    width: 100%;
-    text-align: center;
-    background-color: var(--bg-300);
-    margin: 0;
-    padding: 1em 0;
-    color: var(--primary-100);
-    font-weight: bold;
-    border-top: 2px solid var(--primary-100);
+@import url("./colors-pallet.css");
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg-200);
+  margin: 0;
+  padding: 1em 0;
+  color: var(--primary-100);
+  font-weight: bold;
+  /*border-top: 2px solid var(--primary-100);*/
+  position: relative;
 }
-footer svg{
-    font-size: var(--txtlarge);
-    color: var(--primary-100);
+footer svg {
+  font-size: var(--txtlarge);
+  color: var(--primary-100);
 }
-footer>p{
-    font-size: var(--txtsmall);
-    margin: 0;
+footer > p {
+  font-size: var(--txtsmall);
+  margin: 0;
 }
-footer>P>nav{
-    color: var(--primary-100);
+footer > P > nav {
+  color: var(--primary-100);
 }

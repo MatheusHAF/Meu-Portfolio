@@ -1,11 +1,10 @@
 import styles from './StylesModules/Projetos.module.css'
-import img1 from '../images/pl.png'
-import img2 from '../images/ppt.png'
-import img3 from '../images/ed.png'
 
 import { Swiper } from 'swiper/react';
 import { register } from 'swiper/element/bundle';
 import { Navigation } from 'swiper/modules';
+
+import { dbcards } from '../data/dbcardsprojects';
 
 import { useState, useEffect } from 'react';
 
@@ -42,30 +41,6 @@ function Projetos() {
             window.removeEventListener('resize', updateSlidesPerView);
         };
     }, []);
-    const dbcards = [
-        {
-            title: 'Portfolio Laura Gomes',
-            image: img1,
-            desc: 'Esse Portfolio WEB contém os trabalhos artísticos da atriz e produtora Laura Gomes. Esse projeto ainda está em desenvolvimento e estou utilizando React para desenvolvê-lo.',
-            link: 'https://matheushaf.github.io/portfolio-LauraGomes/',
-            tags: ['React']
-        },
-        {
-            title: 'Pedra, Papel & Tesoura',
-            image: img2,
-            desc: 'Esse página WEB é uma landing-page de um desafio feito pelo Site FrontEnd-Mentor, utilizei as linguagens HTML, CSS e JavaScript.',
-            link: 'https://matheushaf.github.io/desafio-pedra-papel-tesoura/',
-            tags: ['Javascript']
-        },
-        {
-            title: 'Estrutura de Dados',
-            image: img3,
-            desc: 'Nesse repositório armazeno os exercícios propostos de Estrutura de Dados, no qual foram feitos utilizando a Linguagem C.',
-            link: 'https://github.com/MatheusHAF/Labs-mc202.git',
-            tags: ['C']
-        },
-
-    ]
     return (
         <div id='projects' className={styles.container}>
             <h1>Projetos</h1>
@@ -75,7 +50,7 @@ function Projetos() {
             >
                 {dbcards.map((item, index) => (
                     <swiper-slide>
-                        <a href={`${item.link}`} target='_blank'>
+                        <a href={`${item.link}`} target='_blank' rel="noreferrer">
                             <div key={index} className={styles.card}>
                                 <img src={item.image} alt={`${item.title}`} />
                                 <div>
